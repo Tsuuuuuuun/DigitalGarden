@@ -16,16 +16,25 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ja-JP",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://garden-26.netlify.app/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: {
+          name: "Noto Sans JP",
+          weights: [400, 700],
+        },
+        body: {
+          name: "Noto Sans JP",
+          weights: [400],
+        },
+        code: {
+          name: "Noto Sans JP",
+          weights: [400],
+        },
       },
       colors: {
         lightMode: {

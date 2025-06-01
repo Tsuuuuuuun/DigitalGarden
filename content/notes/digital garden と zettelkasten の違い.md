@@ -7,6 +7,7 @@ tags:
   - zettelkasten
 created: 2025-06-01
 modified: 2025-06-01
+description: "公開されているか否かがかなり大きな違い"
 ---
 **公開されているか否か**がかなり大きな違いだと思う。
 

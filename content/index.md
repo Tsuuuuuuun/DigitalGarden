@@ -2,6 +2,7 @@
 title: Welcome to Garden 26!
 created: 2025-06-01
 modified: 2025-06-01
+description: home
 ---
 
 ## [[notes/Hello World|Hello world!]]
