@@ -7,7 +7,7 @@ description: home
 
 ## [[notes/Hello World|Hello world!]]
 
-> [!note]ここがわたしの Digital Garden。
+> [!note] ここがわたしの Digital Garden。
 
 ## 🌐 Digital Garden とは？
 
