@@ -2,7 +2,6 @@
 title: 
 draft: false
 tags:
-  - fleeting
   - quartz
   - twitter
 created: 2025-06-01
