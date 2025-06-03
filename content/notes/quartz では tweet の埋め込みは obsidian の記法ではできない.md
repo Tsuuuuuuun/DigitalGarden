@@ -5,7 +5,7 @@ tags:
   - quartz
   - twitter
 created: 2025-06-01
-modified: 2025-06-01
+modified: 2025-06-03
 description: ""
 ---
 Obsidian では以下のような書き方で tweet を埋め込むことが可能である。
@@ -26,3 +26,5 @@ Obsidian では以下のような書き方で tweet を埋め込むことが可�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">バナナのナス、トウモロコシ</p>&mdash; あんぐら (@angura2718) <a href="https://twitter.com/angura2718/status/1926967658613813437?ref_src=twsrc%5Etfw">May 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Obsidian の内部処理をうまいこと quartz に実装できればいいが、かなりめんどくさいのではないか？
+
+week: [[weekly/2025-W23|2025-W23]]

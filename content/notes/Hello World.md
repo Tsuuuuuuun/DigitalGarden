@@ -3,10 +3,9 @@ title:
 draft: false
 tags: []
 created: 2025-06-01
-modified: 2025-06-01
+modified: 2025-06-03
 description: ""
 ---
-
 ```txt
 Hello World!
 ```
@@ -51,3 +50,5 @@ MATLAB
 ```matlab
 disp('Hello World')
 ```
+
+week: [[weekly/2025-W23|2025-W23]]
