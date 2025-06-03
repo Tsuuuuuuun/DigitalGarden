@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-WCBWQ8F75S"
     },
     locale: "ja-JP",
     baseUrl: "garden-26.netlify.app",
