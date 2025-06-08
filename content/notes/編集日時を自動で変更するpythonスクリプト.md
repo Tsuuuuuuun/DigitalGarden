@@ -152,8 +152,8 @@ git config --local core.quotepath false
 python update_date.py
 date=$(date +%Y-%m-%d)
 
-# draft: falseを含むファイルを安全に追加
-git ls-files -z 'content/notes/*.md' | xargs -0 grep -l "draft: false" | while IFS= read -r file; do
+# すべての.mdファイル（tracked/untrackedを問わず）からdraft: falseを含むファイルを追加
+find content/notes -name "*.md" -exec grep -l "draft: false" {} + | while IFS= read -r file; do
     echo "Adding: $file"
     git add "$file"
 done
