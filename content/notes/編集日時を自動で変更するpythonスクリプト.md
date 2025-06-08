@@ -1,15 +1,15 @@
 ---
-title: 
-draft: true
+title:
+draft: false
 tags:
   - python
 created: 2025-06-03
-modified: 2025-06-03
+modified: 2025-06-08
 description: ""
 ---
-更新日を手動で変更するのが面倒なので。
+更新日を手動で変更するのが面倒なので以下のようなスクリプトをつくった。
 
-```python
+```python title="update_date.py"
 import subprocess
 import datetime
 import re
@@ -139,5 +139,26 @@ if __name__ == '__main__':
     main()
 ```
 
-week: [[weekly/2025-W23|2025-W23]]
+なお、ファイル名が日本語の場合は以下のコマンドを打ち込んで、git に日本語を認識させる。
 
+```bash
+git config --local core.quotepath false
+```
+
+ついでに一日の作成ノートをコミットするスクリプトも書いた。
+
+```bash title="daily_commit.sh"
+#!/bin/bash
+python update_date.py
+date=$(date +%Y-%m-%d)
+
+# draft: falseを含むファイルを安全に追加
+git ls-files -z 'content/notes/*.md' | xargs -0 grep -l "draft: false" | while IFS= read -r file; do
+    echo "Adding: $file"
+    git add "$file"
+done
+
+git commit -m "daily commit: $date"
+```
+
+week: [[weekly/2025-W23|2025-W23]]

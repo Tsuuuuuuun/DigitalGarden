@@ -1,11 +1,11 @@
 ---
-title: 
+title:
 draft: false
 tags:
   - seed
   - 論文
 created: 2025-06-02
-modified: 2025-06-03
+modified: 2025-06-08
 description: ""
 ---
 https://arxiv.org/abs/2505.10468
@@ -21,14 +21,14 @@ AI agent と Agentic AI について概念的に分類している。
 
 **TODO: 各論を読む**
 
->[!question] AI agent, Agentic AI ともにかなり膨大な計算コストがかかるのでは？
+> [!question] AI agent, Agentic AI ともにかなり膨大な計算コストがかかるのでは？
 
->[!question] 一つでもポンコツな Agent が混じっているとうまくワークしないのでは？ 
+> [!question] 一つでもポンコツな Agent が混じっているとうまくワークしないのでは？
 
 > [!question] 学習は収束するのか？
 > ただではうまくいかないような気がする。まあ応用例の論文を読んでいくしかない。
 
->[!question] 何をもってタスクがうまくいったと言い切るのだろうか
->Atari みたいなベンチマークタスクとかが存在する世界ではなさそう。
+> [!question] 何をもってタスクがうまくいったと言い切るのだろうか
+> Atari みたいなベンチマークタスクとかが存在する世界ではなさそう。
 
 week: [[weekly/2025-W23|2025-W23]]

@@ -1,10 +1,10 @@
 ---
-title: 
+title:
 draft: false
 tags:
   - fleeting
 created: 2025-06-02
-modified: 2025-06-03
+modified: 2025-06-08
 description: ""
 ---
 https://iframely.com/
