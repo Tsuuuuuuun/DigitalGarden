@@ -80,6 +80,10 @@
     max-width: 300px; // 最大幅を設定
     height: 120px; // 高さは固定
     width: auto; // 幅は画像に応じて自動調整
+
+    &.image-failed {
+      display: none;
+    }
   }
 
   .rlc-image {
@@ -106,6 +110,10 @@
       height: 160px;
       order: -1;
       max-width: none; // モバイルでは最大幅制限を解除
+
+      &.image-failed {
+        display: none;
+      }
     }
 
     .rlc-title {
@@ -123,6 +131,10 @@
 
     .rlc-image-container {
       height: 140px;
+
+      &.image-failed {
+        display: none;
+      }
     }
 
     .rlc-title {
