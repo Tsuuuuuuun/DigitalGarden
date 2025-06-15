@@ -1,0 +1,136 @@
+.rlc-container {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  margin: 16px 0;
+  background: var(--light);
+  transition: all 0.2s ease;
+  color: var(--darkgray);
+  overflow: hidden;
+
+  &:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    color: var(--darkgray);
+    transform: translateY(-2px);
+  }
+
+  .rlc-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 12px 16px;
+    min-width: 0;
+    gap: 4px;
+  }
+
+  .rlc-content {
+    flex: 1;
+  }
+
+  .rlc-title {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 0 0 4px 0;
+    color: var(--dark);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .rlc-description {
+    display: none;
+  }
+
+  .rlc-url-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: var(--gray);
+    margin: 0;
+  }
+
+  .rlc-favicon {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  .rlc-url {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .rlc-image-container {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lightgray);
+    position: relative;
+    overflow: hidden;
+    min-width: 120px; // 最小幅を設定
+    max-width: 300px; // 最大幅を設定
+    height: 120px; // 高さは固定
+    width: auto; // 幅は画像に応じて自動調整
+  }
+
+  .rlc-image {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-width: 100%; // コンテナの幅は最低限埋める
+  }
+}
+
+@media (max-width: 768px) {
+  .rlc-container {
+    flex-direction: column;
+    min-height: auto;
+    margin: 12px 0;
+
+    .rlc-info {
+      padding: 16px;
+    }
+
+    .rlc-image-container {
+      width: 100%;
+      height: 160px;
+      order: -1;
+      max-width: none; // モバイルでは最大幅制限を解除
+    }
+
+    .rlc-title {
+      font-size: 0.95rem;
+    }
+
+  }
+}
+
+@media (max-width: 480px) {
+  .rlc-container {
+    .rlc-info {
+      padding: 12px;
+    }
+
+    .rlc-image-container {
+      height: 140px;
+    }
+
+    .rlc-title {
+      font-size: 0.9rem;
+    }
+
+    .rlc-url-container {
+      font-size: 0.7rem;
+    }
+  }
+}
