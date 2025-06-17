@@ -5,7 +5,7 @@ tags:
   - seed
   - 論文
 created: 2025-06-02
-modified: 2025-06-08
+modified: 2025-06-16
 description: ""
 ---
 https://arxiv.org/abs/2505.10468
