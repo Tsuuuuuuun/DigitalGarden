@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `อ่านราว ${minutes} นาที`,
     },
+    editSuggestion: {
+      text: "เสนอการแก้ไข",
+    },
   },
   pages: {
     rss: {

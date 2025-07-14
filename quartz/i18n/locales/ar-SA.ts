@@ -64,6 +64,9 @@ export default {
             ? `دقيقتان للقراءة`
             : `${minutes} دقائق للقراءة`,
     },
+    editSuggestion: {
+      text: "اقتراح تعديل",
+    },
   },
   pages: {
     rss: {

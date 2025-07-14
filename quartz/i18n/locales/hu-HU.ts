@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} perces olvasás`,
     },
+    editSuggestion: {
+      text: "Szerkesztés Javaslása",
+    },
   },
   pages: {
     rss: {

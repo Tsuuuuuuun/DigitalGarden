@@ -60,6 +60,9 @@ export default {
       readingTime: ({ minutes }) =>
         minutes == 1 ? `lectură de 1 minut` : `lectură de ${minutes} minute`,
     },
+    editSuggestion: {
+      text: "Sugerează Editare",
+    },
   },
   pages: {
     rss: {

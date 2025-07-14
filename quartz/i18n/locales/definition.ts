@@ -61,6 +61,9 @@ export interface Translation {
     contentMeta: {
       readingTime: (variables: { minutes: number }) => string
     }
+    editSuggestion: {
+      text: string
+    }
   }
   pages: {
     rss: {

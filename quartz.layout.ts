@@ -5,7 +5,13 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.LinkCardHandler()],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.EditSuggestion(),
+      condition: (page) => page.fileData.filePath?.startsWith("content/notes/") ?? false,
+    }),
+    Component.LinkCardHandler(),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/Tsuuuuuuun/DigitalGarden",

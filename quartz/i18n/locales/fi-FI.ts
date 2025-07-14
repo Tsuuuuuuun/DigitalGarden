@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min lukuaika`,
     },
+    editSuggestion: {
+      text: "Ehdota Muokkausta",
+    },
   },
   pages: {
     rss: {

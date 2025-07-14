@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} хв читання`,
     },
+    editSuggestion: {
+      text: "Запропонувати правку",
+    },
   },
   pages: {
     rss: {

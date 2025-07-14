@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} dakika okuma süresi`,
     },
+    editSuggestion: {
+      text: "Düzenleme Öner",
+    },
   },
   pages: {
     rss: {

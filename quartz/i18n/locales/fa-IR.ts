@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `زمان تقریبی مطالعه: ${minutes} دقیقه`,
     },
+    editSuggestion: {
+      text: "پیشنهاد ویرایش",
+    },
   },
   pages: {
     rss: {

@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes}分钟阅读`,
     },
+    editSuggestion: {
+      text: "建议编辑",
+    },
   },
   pages: {
     rss: {

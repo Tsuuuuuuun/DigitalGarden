@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min skaitymo`,
     },
+    editSuggestion: {
+      text: "Pasiūlyti Redagavimą",
+    },
   },
   pages: {
     rss: {
