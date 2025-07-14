@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "ja-JP",
     baseUrl: "garden-26.netlify.app",
-    ignorePatterns: ["private", "templates", ".obsidian", "daily"],
+    ignorePatterns: ["private", "templates", ".obsidian", "daily", "notes/_*", "weekly"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
