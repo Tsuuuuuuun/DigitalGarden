@@ -170,5 +170,3 @@ docker compose exec <container-name> <command>
 ```bash
 docker compose exec <container-name> /bin/bash
 ```
-
-week: [[weekly/2025-W25|2025-W25]]

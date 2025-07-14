@@ -50,5 +50,3 @@ MATLAB
 ```matlab
 disp('Hello World')
 ```
-
-week: [[weekly/2025-W23|2025-W23]]

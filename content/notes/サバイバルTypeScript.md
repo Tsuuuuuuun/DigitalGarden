@@ -17,6 +17,3 @@ TypeScript 入門でぐぐったら一番上に出てきた。
 - 「作って学ぶTypeScript」という章がある。
 - デザインが綺麗。
 	- [[notes/docusaurus|docusaurus]] ベースで作られている。
-
-
-week: [[weekly/2025-W25|2025-W25]]

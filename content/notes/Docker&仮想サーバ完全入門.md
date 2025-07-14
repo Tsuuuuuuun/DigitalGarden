@@ -20,5 +20,3 @@ https://book.impress.co.jp/books/1121101138
 3. Docker を使うための環境を構築しよう
 4. Docker を使った仮想サーバー構築に挑戦
 5. すぐに使えるDocker設定ファイル集
-
-week: [[weekly/2025-W25|2025-W25]]

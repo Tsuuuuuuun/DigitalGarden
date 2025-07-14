@@ -298,5 +298,3 @@ export default (() => LinkCardHandler) satisfies QuartzComponentConstructor
 ## まとめ
 
 これにて Quartz に Link Card を導入できました。やったね！
-
-week: [[weekly/2025-W24|2025-W24]]

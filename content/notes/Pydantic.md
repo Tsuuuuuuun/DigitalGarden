@@ -10,5 +10,3 @@ description: ""
 Python の型チェックライブラリー
 
 ドキュメント：[Welcome to Pydantic - Pydantic](https://docs.pydantic.dev/latest/)
-
-week: [[weekly/2025-W24|2025-W24]]

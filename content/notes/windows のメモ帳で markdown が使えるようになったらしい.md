@@ -12,5 +12,3 @@ description: ""
 > The experience supports Markdown style input and files for users who prefer to work directly with the lightweight markup language.
 
 やっとか！
-
-week: [[weekly/2025-W23|2025-W23]]

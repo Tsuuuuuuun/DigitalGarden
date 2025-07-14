@@ -160,5 +160,3 @@ done
 
 git commit -m "daily commit: $date"
 ```
-
-week: [[weekly/2025-W23|2025-W23]]

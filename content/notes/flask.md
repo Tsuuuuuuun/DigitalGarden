@@ -10,5 +10,3 @@ description: ""
 Python を用いた Web アプリケーションフレームワーク。
 
 日本語ドキュメント：[Flaskへようこそ — Flask Documentation (2.2.x)](https://msiz07-flask-docs-ja.readthedocs.io/ja/latest/)
-
-week: [[weekly/2025-W24|2025-W24]]
