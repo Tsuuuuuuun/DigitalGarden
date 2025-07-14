@@ -2,7 +2,11 @@
 title:
 draft: false
 tags:
-  - clip
+  - windows
+  - markdown
+  - notepad
+  - operating-system
+  - software-update
 created: 2025-06-02
 modified: 2025-06-08
 description: ""

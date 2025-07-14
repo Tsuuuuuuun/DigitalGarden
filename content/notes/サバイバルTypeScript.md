@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - fleeting
+  - typescript
+  - programming-language
+  - web-development
+  - javascript
+  - learning-resource
+  - docusaurus
 created: 2025-06-18
 modified: 2025-06-18
 description: ""

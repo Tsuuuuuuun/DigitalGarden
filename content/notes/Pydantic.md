@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - fleeting
+  - python
+  - type-checking
+  - data-validation
+  - library
+  - programming
+  - pydantic
 created: 2025-06-14
 modified: 2025-06-15
 description: ""

@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - insight
+  - deep-work
+  - productivity
+  - focus
+  - time-management
+  - self-improvement
+  - work-management
 created: 2025-06-08
 modified: 2025-06-15
 description: ""

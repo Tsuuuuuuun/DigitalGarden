@@ -2,7 +2,12 @@
 title:
 draft: true
 tags:
-  - fleeting
+  - ai-agents
+  - agentic-ai
+  - large-language-models
+  - generative-ai
+  - research-guide
+  - conceptual-taxonomy
 created: 2025-06-03
 modified: 2025-06-17
 description: ""

@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - seed
+  - docker
+  - docker-compose
+  - containerization
+  - command-line
+  - development-tools
+  - cheat-sheet
 created: 2025-06-16
 modified: 2025-06-16
 description: ""

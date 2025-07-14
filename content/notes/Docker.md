@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - fleeting
+  - docker
+  - documentation
+  - reference
+  - containerization
+  - devops
+  - tool
 created: 2025-06-16
 modified: 2025-06-16
 description: ""

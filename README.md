@@ -1,4 +1,5 @@
-# Digital Garden 🌱  
+# Digital Garden 🌱
+
 [https://garden-26.netlify.app/](https://garden-26.netlify.app/)
 
 ## 🌐 Digital Garden とは？

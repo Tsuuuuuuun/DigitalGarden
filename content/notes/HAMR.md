@@ -2,7 +2,12 @@
 title:
 draft: false
 tags:
-  - clip
+  - storage
+  - hdd
+  - technology
+  - hamr
+  - seagate
+  - computer-hardware
 created: 2025-06-02
 modified: 2025-06-08
 description: ""

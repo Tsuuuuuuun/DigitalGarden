@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - book
+  - docker
+  - virtualization
+  - containerization
+  - book-review
+  - development-environment
+  - server-management
 created: 2025-06-16
 modified: 2025-06-16
 description: ""

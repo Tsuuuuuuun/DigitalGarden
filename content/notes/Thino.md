@@ -2,7 +2,12 @@
 title: 
 draft: false
 tags:
-  - fleeting
+  - obsidian
+  - note-taking
+  - plugin
+  - thino
+  - knowledge-management
+  - zettelkasten
 created: 2025-06-19
 modified: 2025-06-19
 description: ""

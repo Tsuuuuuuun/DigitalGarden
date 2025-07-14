@@ -2,7 +2,11 @@
 title: 
 draft: false
 tags:
-  - fleeting
+  - python
+  - web-framework
+  - flask
+  - web-development
+  - programming
 created: 2025-06-13
 modified: 2025-06-15
 description: ""
