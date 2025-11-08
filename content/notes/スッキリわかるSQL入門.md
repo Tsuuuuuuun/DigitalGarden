@@ -1,12 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - sql
-  - book-review
-  - database
-  - learning-sql
-  - data-analysis
 created: 2025-06-08
 modified: 2025-06-15
 description: ""

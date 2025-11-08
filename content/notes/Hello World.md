@@ -2,14 +2,6 @@
 title:
 draft: false
 tags:
-  - hello-world
-  - programming
-  - code-examples
-  - python
-  - javascript
-  - java
-  - cpp
-  - matlab
 created: 2025-06-01
 modified: 2025-06-08
 description: ""

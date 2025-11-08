@@ -1,12 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - python
-  - web-framework
-  - flask
-  - web-development
-  - programming
 created: 2025-06-13
 modified: 2025-06-15
 description: ""

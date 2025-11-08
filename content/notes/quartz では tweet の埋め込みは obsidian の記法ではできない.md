@@ -2,12 +2,6 @@
 title:
 draft: false
 tags:
-  - quartz
-  - obsidian
-  - tweet-embedding
-  - markdown
-  - web-publishing
-  - platform-compatibility
 created: 2025-06-01
 modified: 2025-06-08
 description: ""

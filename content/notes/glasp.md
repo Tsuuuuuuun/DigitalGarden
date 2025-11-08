@@ -1,14 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - glasp
-  - web-clipper
-  - note-taking
-  - highlighting
-  - markdown
-  - productivity
-  - knowledge-management
 created: 2025-06-18
 modified: 2025-06-18
 description: ""

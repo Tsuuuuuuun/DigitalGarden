@@ -1,13 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - docusaurus
-  - static-site-generator
-  - react
-  - markdown
-  - documentation
-  - web-development
 created: 2025-06-18
 modified: 2025-06-18
 description: ""

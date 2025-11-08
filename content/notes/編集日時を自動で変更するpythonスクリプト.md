@@ -2,11 +2,6 @@
 title:
 draft: false
 tags:
-  - python
-  - automation
-  - git
-  - markdown
-  - script
 created: 2025-06-03
 modified: 2025-06-08
 description: ""

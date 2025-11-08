@@ -2,12 +2,6 @@
 title:
 draft: false
 tags:
-  - digital-garden
-  - note-taking
-  - tagging-system
-  - knowledge-management
-  - personal-knowledge-management
-  - content-lifecycle
 created: 2025-06-08
 modified: 2025-06-08
 description: ""

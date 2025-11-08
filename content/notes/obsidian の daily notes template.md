@@ -1,14 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - obsidian
-  - daily-notes
-  - template
-  - dataview
-  - note-taking
-  - zettelkasten
-  - personal-knowledge-management
 created: 2025-06-15
 modified: 2025-06-15
 description: ""

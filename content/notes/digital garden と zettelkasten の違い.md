@@ -2,13 +2,6 @@
 title:
 draft: false
 tags:
-  - digital-garden
-  - zettelkasten
-  - note-taking
-  - knowledge-management
-  - personal-knowledge-management
-  - comparison
-  - public-vs-private
 created: 2025-06-01
 modified: 2025-06-08
 description: 公開されているか否かがかなり大きな違い

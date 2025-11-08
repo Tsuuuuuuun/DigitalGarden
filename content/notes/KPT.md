@@ -1,13 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - kpt
-  - retrospective
-  - project-management
-  - team-collaboration
-  - continuous-improvement
-  - framework
 created: 2025-06-08
 modified: 2025-06-08
 description: ""

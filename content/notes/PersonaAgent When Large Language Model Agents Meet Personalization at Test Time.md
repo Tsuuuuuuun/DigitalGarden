@@ -1,8 +1,7 @@
 ---
-title: 
+title:
 draft: false
 tags:
-  - ai-agents
 created: 2025-07-28
 modified: 2025-07-28
 description: ""

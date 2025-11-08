@@ -2,12 +2,6 @@
 title:
 draft: false
 tags:
-  - iframely
-  - web-service
-  - card-links
-  - embedding
-  - web-development
-  - tool
 created: 2025-06-02
 modified: 2025-06-08
 description: ""
