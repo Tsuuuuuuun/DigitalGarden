@@ -2,6 +2,7 @@
 title:
 draft: false
 tags:
+  - book
 created: 2025-06-16
 modified: 2025-06-16
 description: ""

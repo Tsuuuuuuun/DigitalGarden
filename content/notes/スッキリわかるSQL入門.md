@@ -1,5 +1,5 @@
 ---
-title:
+title: book
 draft: false
 tags:
 created: 2025-06-08
