@@ -5,6 +5,8 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
+// @ts-ignore
+import script from "./scripts/contentMeta.inline"
 
 interface ContentMetaOptions {
   /**
@@ -12,11 +14,16 @@ interface ContentMetaOptions {
    */
   showReadingTime: boolean
   showComma: boolean
+  /**
+   * Whether to display page view count from GoatCounter
+   */
+  showPageViews: boolean
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
   showComma: true,
+  showPageViews: false,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -51,6 +58,17 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       //   segments.push(<span>{displayedTime}</span>)
       // }
 
+      // Display page views if enabled
+      if (options.showPageViews && cfg.analytics?.provider === "goatcounter") {
+        const websiteId = cfg.analytics.websiteId
+        const path = fileData.slug
+        segments.push(
+          <span class="page-views" data-goatcounter-id={websiteId} data-path={path}>
+            Views: <span class="page-view-count">--</span>
+          </span>
+        )
+      }
+
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
           {segments}
@@ -62,6 +80,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   }
 
   ContentMetadata.css = style
+  ContentMetadata.afterDOMLoaded = script
 
   return ContentMetadata
 }) satisfies QuartzComponentConstructor
