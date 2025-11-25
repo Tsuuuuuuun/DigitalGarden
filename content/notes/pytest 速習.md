@@ -84,6 +84,7 @@ def test_recursion_depth():
 - **ERROR**: 例外がテスト関数の中ではなく、フィクスチャやフック関数の実行中に発生したもの。
 
 ## References
+
 pytest の公式ドキュメント
 
 https://docs.pytest.org/en/stable/getting-started.html

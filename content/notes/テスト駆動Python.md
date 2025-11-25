@@ -10,7 +10,7 @@ description: ""
 
 業務でPythonを用いたテストをすることになったので。
 
-## 派生ノート
+## 読書メモ
 
 - [[notes/Arrange-Act-Assert|Arrange-Act-Assert]]
 - [[notes/Given-When-Then|Given-When-Then]]
