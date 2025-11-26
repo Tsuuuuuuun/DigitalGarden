@@ -2,7 +2,7 @@
 
 ul.section-ul {
   list-style: none;
-  margin-top: 2em;
+  margin: 1.25em 0 0;
   padding-left: 0;
 }
 
@@ -12,6 +12,8 @@ li.section-li {
   & > .section {
     display: grid;
     grid-template-columns: fit-content(8em) 3fr 1fr;
+    align-items: start;
+    column-gap: 1em;
 
     @media all and ($mobile) {
       & > .tags {
