@@ -25,8 +25,12 @@ const defaultOptions: EditSuggestionOptions = {
 
 export default ((userOptions?: Partial<EditSuggestionOptions>) => {
   const opts = { ...defaultOptions, ...userOptions }
-  
-  const EditSuggestion: QuartzComponent = ({ fileData, displayClass, cfg }: QuartzComponentProps) => {
+
+  const EditSuggestion: QuartzComponent = ({
+    fileData,
+    displayClass,
+    cfg,
+  }: QuartzComponentProps) => {
     const text = opts.text ?? i18n(cfg.locale).components.editSuggestion.text
     // Only show for notes, not for index or tag pages
     if (!fileData.filePath || !fileData.filePath.startsWith("content/")) {

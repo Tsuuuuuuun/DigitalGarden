@@ -1,4 +1,4 @@
-import { Date} from "./Date"
+import { Date } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { JSX } from "preact"
@@ -38,12 +38,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(
           <span>
             Created on: <Date date={fileData.dates.created} />
-          </span>
+          </span>,
         )
         segments.push(
           <span>
             Last Updated: <Date date={fileData.dates.modified} />
-          </span>
+          </span>,
         )
       }
 
@@ -63,7 +63,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(
           <span class="page-views" data-goatcounter-id={websiteId} data-path={path}>
             Views: <span class="page-view-count">--</span>
-          </span>
+          </span>,
         )
       }
 

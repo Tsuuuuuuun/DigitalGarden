@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin: 1.5rem 0;
-  
+
   .edit-button {
     display: inline-flex;
     align-items: center;
@@ -16,7 +16,7 @@
     font-size: 0.9rem;
     font-weight: 500;
     transition: all 0.2s ease;
-    
+
     &:hover {
       background: var(--lightgray);
       border-color: var(--gray);
@@ -24,13 +24,13 @@
       transform: translateY(-1px);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
-    
+
     .github-icon {
       width: 16px;
       height: 16px;
       color: var(--gray);
     }
-    
+
     span {
       color: var(--dark);
     }
