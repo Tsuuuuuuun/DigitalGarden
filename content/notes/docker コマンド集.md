@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-16
-modified: 2025-06-16
+modified: 2025-11-08
 description: ""
 ---
+
 概念と共に理解していく。
 
 参考：
@@ -83,15 +84,15 @@ Docker Compose とは、一度に複数のコンテナを作成・実行でき�
 docker container run --name mariadb01 -dit -v db-data:/var/lib/mysql -e MARIADB_ROOT_PASSWORD=rootpass -e MARIADB_DATABASE=testdb -e MARIADB_USER=test_user -e MARIADB_PASSWORD=testpass mariadb:10.7
 ```
 
- これを compose で実行するには、まず以下のような YAML ファイルを作成する。
+これを compose で実行するには、まず以下のような YAML ファイルを作成する。
 
 ```yaml title="compose.yaml"
 services:
-  web:
-    image: httpd
-    container_name: apache01
-    ports:
-      - "8080:80"
+    web:
+        image: httpd
+        container_name: apache01
+        ports:
+            - "8080:80"
 ```
 
 ### up

@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-02
-modified: 2025-06-08
+modified: 2025-11-08
 description: ""
 ---
+
 https://iframely.com/
 
 カードリンクを生成してくれる。

@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-07-28
-modified: 2025-07-28
+modified: 2025-11-08
 description: ""
 ---
+
 ## どんなもの？
 
 ユーザーごとの好みや履歴にリアルタイムで適応する personalized agent framework。

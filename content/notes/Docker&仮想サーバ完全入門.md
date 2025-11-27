@@ -2,11 +2,12 @@
 title:
 draft: false
 tags:
-  - book
+    - book
 created: 2025-06-16
-modified: 2025-06-16
+modified: 2025-11-12
 description: ""
 ---
+
 https://book.impress.co.jp/books/1121101138
 
 ## 読むきっかけ

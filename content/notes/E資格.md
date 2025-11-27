@@ -6,6 +6,7 @@ created: "2025-11-12"
 modified: "2025-11-12"
 description: ""
 ---
+
 https://www.jdla.org/certificate/engineer/
 
 > ディープラーニングの理論を理解し、適切な手法を選択して実装する能力や知識を有しているかを認定する。

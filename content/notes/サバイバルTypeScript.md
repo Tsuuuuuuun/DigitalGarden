@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-18
-modified: 2025-06-18
+modified: 2025-11-08
 description: ""
 ---
+
 https://typescriptbook.jp/
 
 TypeScript 入門でぐぐったら一番上に出てきた。
@@ -15,4 +16,4 @@ TypeScript 入門でぐぐったら一番上に出てきた。
 - TypeScript の歴史から話してくれる。
 - 「作って学ぶTypeScript」という章がある。
 - デザインが綺麗。
-	- [[notes/docusaurus|docusaurus]] ベースで作られている。
+    - [[notes/docusaurus|docusaurus]] ベースで作られている。

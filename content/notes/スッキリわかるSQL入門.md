@@ -1,11 +1,12 @@
 ---
-title: book
+title:
 draft: false
 tags:
 created: 2025-06-08
-modified: 2025-06-15
+modified: 2025-11-12
 description: ""
 ---
+
 ## 読むきっかけ
 
 研修で使うために購入。

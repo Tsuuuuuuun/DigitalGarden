@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-08
-modified: 2025-06-15
+modified: 2025-11-08
 description: ""
 ---
+
 ![](https://www.youtube.com/watch?v=entASneJdU0&pp=ygUJZGVlcCB3b3Jr)
 
 > 気が散らない集中状態で行われる専門的な活動で、自分の認知能力の限界に挑むもの。

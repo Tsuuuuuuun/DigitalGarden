@@ -6,6 +6,7 @@ created: 2025-11-24
 modified: 2025-11-24
 description: ""
 ---
+
 https://podman.io/
 
 Mac や Windows も走らせることができるコンテナ管理ツール。[[notes/デーモンレスアーキテクチャ|デーモンレスアーキテクチャ]]であることが特徴の一つ。

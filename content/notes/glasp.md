@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-18
-modified: 2025-06-18
+modified: 2025-11-08
 description: ""
 ---
+
 https://glasp.co/
 
 Web Clipper 的なもの。

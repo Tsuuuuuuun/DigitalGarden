@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-08
-modified: 2025-06-08
+modified: 2025-11-12
 description: ""
 ---
+
 [Welcome to Daniël's Digital Garden](https://danieldk.eu/?utm_source=chatgpt.com)
 
 ![d8eeadbc5b425b3ccacad4d9e187da71](https://i.gyazo.com/d8eeadbc5b425b3ccacad4d9e187da71.png)

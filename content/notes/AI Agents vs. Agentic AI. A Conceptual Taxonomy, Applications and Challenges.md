@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-02
-modified: 2025-06-16
+modified: 2025-11-08
 description: ""
 ---
+
 https://arxiv.org/abs/2505.10468
 
 AI agent と Agentic AI について概念的に分類している。

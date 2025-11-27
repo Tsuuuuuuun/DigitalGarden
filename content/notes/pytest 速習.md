@@ -6,6 +6,7 @@ created: "2025-11-12"
 modified: "2025-11-12"
 description: ""
 ---
+
 ## あとで書くこと
 
 - [ ] テストの一部を実行する方法
@@ -62,7 +63,7 @@ import pytest
 def test_zero_division():
     with pytest.raises(ZeroDivisionError):
         1 / 0
-        
+
 def test_recursion_depth():
     with pytest.raises(RuntimeError) as excinfo:
 
@@ -92,4 +93,3 @@ https://docs.pytest.org/en/stable/getting-started.html
 [[notes/テスト駆動Python|テスト駆動Python]]
 
 https://www.shoeisha.co.jp/book/detail/9784798177458
-

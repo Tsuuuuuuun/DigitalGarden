@@ -3,9 +3,10 @@ title:
 draft: false
 tags:
 created: 2025-06-03
-modified: 2025-06-08
+modified: 2025-11-08
 description: ""
 ---
+
 更新日を手動で変更するのが面倒なので以下のようなスクリプトをつくった。
 
 ```python title="update_date.py"
