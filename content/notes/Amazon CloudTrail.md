@@ -6,6 +6,7 @@ created: "2026-01-02"
 modified:
 description: ""
 ---
+
 https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html
 
 > AWS CloudTrail は、AWS アカウント の運用とリスクの監査、ガバナンス、コンプライアンスを可能にするのに役立つ AWS のサービス です。ユーザー、ロール、または AWS のサービスによって実行されたアクションは、CloudTrail にイベントとして記録されます。イベントには、AWS マネジメントコンソール、AWS Command Line Interface、および AWS SDK と API で実行されたアクションが含まれます。

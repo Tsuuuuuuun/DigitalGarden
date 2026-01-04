@@ -6,6 +6,7 @@ created: "2026-01-02"
 modified:
 description: ""
 ---
+
 https://aws.amazon.com/jp/lambda/
 
 > AWS Lambda を使用すると、すべてのインフラストラクチャ管理を処理しながら、コードのみに集中できるため、開発の迅速化、パフォーマンスの向上、セキュリティの強化、コスト効率の向上を実現できます。

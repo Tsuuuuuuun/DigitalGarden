@@ -6,6 +6,7 @@ created: "2026-01-02"
 modified:
 description: ""
 ---
+
 https://aws.amazon.com/jp/application-migration-service/
 
 AWS Application Migration Service(MGN)は、オンプレミスや他クラウドで動作しているサーバー全体をAWSにリフトアンドシフト方式で迅速かつ効率的に移行するサービスである。

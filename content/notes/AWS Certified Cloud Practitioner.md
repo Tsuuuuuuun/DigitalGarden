@@ -17,11 +17,11 @@ https://d1.awsstatic.com/onedam/marketing-channels/website/aws/ja_JP/certificati
 
 以下は上記の内容の抜粋
 
-## はじめに 
+## はじめに
 
-AWS Certified Cloud Practitioner (CLF-C02) 試験は、役職を問わず、AWS クラウドに関する総合的な理解を効果的に実証できる個人を対象としています。 
+AWS Certified Cloud Practitioner (CLF-C02) 試験は、役職を問わず、AWS クラウドに関する総合的な理解を効果的に実証できる個人を対象としています。
 
-また、次のタスクについての受験者の能力も検証します。 
+また、次のタスクについての受験者の能力も検証します。
 
 - AWSクラウドの価値を説明する。
 - AWSの責任共有モデルを理解し、説明する。
@@ -73,7 +73,7 @@ AWS Certified Cloud Practitioner (CLF-C02) 試験は、役職を問わず、AWS 
 対象知識
 
 - クラウド導入戦略
--  クラウド移行ジャーニーをサポートするリソース
+- クラウド移行ジャーニーをサポートするリソース
 
 対象スキル
 
@@ -148,13 +148,13 @@ AWS Certified Cloud Practitioner (CLF-C02) 試験は、役職を問わず、AWS 
 
 対象知識
 
-- AWS が提供するセキュリティ機能 
-- AWS が提供するセキュリティに関連するドキュメント 
+- AWS が提供するセキュリティ機能
+- AWS が提供するセキュリティに関連するドキュメント
 
 対象スキル
 
 - AWS のセキュリティ機能とサービスの説明 （AWS WAF、AWS Firewall Manager、AWS Shield、Amazon GuardDuty など）
-- サードパーティーのセキュリティ製品を AWS Marketplace で入手できることの理解 
+- サードパーティーのセキュリティ製品を AWS Marketplace で入手できることの理解
 - AWS セキュリティ情報を入手できる場所の特定 （AWS ナレッジセンター、AWS セキュリティセンター、AWS セキュリティブログなど）
 - セキュリティの問題の特定に向けた AWS サービスの利用についての理解 （AWS Trusted Advisor など）
 
@@ -293,6 +293,7 @@ AWS Certified Cloud Practitioner (CLF-C02) 試験は、役職を問わず、AWS 
 #### 4.2 請求、予算、コスト管理のためのリソースを理解する
 
 対象知識
+
 - 請求サポートと情報
 - AWS サービスの料金についての情報
 - AWS Organizations
@@ -312,15 +313,15 @@ AWS Certified Cloud Practitioner (CLF-C02) 試験は、役職を問わず、AWS 
 - AWS の公式ウェブサイトで提供されているリソースとドキュメント
 - AWS サポートプラン
 - 独立系ソフトウェアベンダー (ISV) やシステムインテグレーターなどの AWS パートナーネットワークの役割
-- AWS サポートセンター 
+- AWS サポートセンター
 
 対象スキル
 
 - AWS 公式ウェブサイトでの AWS ホワイトペーパー、ブログ、ドキュメント の検索
 - AWS の技術リソースの特定と検索 (AWS 規範ガイダンス、AWS ナレッジ センター、AWS re: Post など)
-- AWS のお客様向けの AWS サポートオプションの特定 (カスタマーサービス とコミュニティ、AWS デベロッパーサポート、AWS ビジネスサポート、 AWS エンタープライズ On-Ramp サポート、AWS エンタープライズ サポートなど) 
+- AWS のお客様向けの AWS サポートオプションの特定 (カスタマーサービス とコミュニティ、AWS デベロッパーサポート、AWS ビジネスサポート、 AWS エンタープライズ On-Ramp サポート、AWS エンタープライズ サポートなど)
 - コスト最適化のための環境の管理とモニタリングに役立つ Trusted Advisor、 AWS Health Dashboard、AWS Health API の役割の特定
-- AWS リソースの不正使用を報告する AWS Trust & Safety チームの役割の 特定 
+- AWS リソースの不正使用を報告する AWS Trust & Safety チームの役割の 特定
 - AWS パートナーの役割の理解 （AWS Marketplace、独立系ソフトウェア ベンダー (ISV)、システムインテグレーターなど）
 - AWS パートナーになる利点の特定 (パートナートレーニングと認定、 パートナーイベント、パートナーボリュームディスカウントなど)
 - AWS Marketplace が提供する主要なサービスの特定 (コスト管理、 ガバナンス、資格など)
