@@ -183,6 +183,7 @@ a {
     column-gap: #{map.get($desktopGrid, columnGap)};
     row-gap: #{map.get($desktopGrid, rowGap)};
     grid-template-areas: #{map.get($desktopGrid, templateAreas)};
+    padding: 0 1rem;
 
     @media all and ($tablet) {
       grid-template-columns: #{map.get($tabletGrid, templateColumns)};
@@ -197,10 +198,6 @@ a {
       column-gap: #{map.get($mobileGrid, columnGap)};
       row-gap: #{map.get($mobileGrid, rowGap)};
       grid-template-areas: #{map.get($mobileGrid, templateAreas)};
-    }
-
-    @media all and not ($desktop) {
-      padding: 0 1rem;
     }
     @media all and ($mobile) {
       margin: 0 auto;
@@ -269,6 +266,11 @@ a {
       }
     }
 
+    & > .center {
+      grid-area: grid-center;
+      min-width: 0;
+    }
+
     & .center > article {
       grid-area: grid-center;
     }
@@ -293,6 +295,32 @@ a {
     }
     & footer {
       margin-left: 0;
+    }
+  }
+
+  &.no-left > #quartz-body {
+    grid-template-columns: minmax(0, 1fr) #{$sidePanelWidth};
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      '"grid-center grid-sidebar-right"\
+        "grid-footer grid-sidebar-right"';
+
+    @media all and ($tablet) {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+        '"grid-center"\
+          "grid-sidebar-right"\
+          "grid-footer"';
+    }
+
+    @media all and ($mobile) {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+        '"grid-center"\
+          "grid-sidebar-right"\
+          "grid-footer"';
     }
   }
 }

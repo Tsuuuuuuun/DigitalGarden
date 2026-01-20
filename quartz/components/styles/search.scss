@@ -1,11 +1,8 @@
 @use "../../styles/variables.scss" as *;
 
 .search {
-  min-width: fit-content;
-  max-width: 14rem;
-  @media all and ($mobile) {
-    flex-grow: 0.3;
-  }
+  width: 12rem;
+  max-width: 100%;
 
   & > .search-button {
     background-color: color-mix(in srgb, var(--lightgray) 60%, var(--light));
