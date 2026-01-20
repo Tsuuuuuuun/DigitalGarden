@@ -13,6 +13,10 @@ header {
   gap: 1.5rem;
 }
 
+header .page-title {
+  margin-right: auto;
+}
+
 header h1 {
   margin: 0;
   flex: auto;

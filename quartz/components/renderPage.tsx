@@ -213,14 +213,16 @@ export function renderPage(
   } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
+  const hasLeft = left.length > 0
+  const pageClass = hasLeft ? "page" : "page no-left"
 
-  const LeftComponent = (
+  const LeftComponent = hasLeft ? (
     <div class="left sidebar">
       {left.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}
     </div>
-  )
+  ) : null
 
   const RightComponent = (
     <div class="right sidebar">
@@ -235,7 +237,7 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div id="quartz-root" class="page">
+        <div id="quartz-root" class={pageClass}>
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
